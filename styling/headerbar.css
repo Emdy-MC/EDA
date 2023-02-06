@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+.body{
+    background-color: #191919;
+    color: #FFFFFF;
+    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Roboto,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.headerbar{
+    height: 60px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    background-color: #111111;
+}
+.headerbar::-webkit-scrollbar {
+    display: none;
+}
+.bar1{
+    padding:10px;
+    height: 40px;
+    display: inline-flex;
+    width: 50%;
+}
+.bar2{
+    height: 40px;
+    width: 40%;
+}
+.home{
+    height: 40px;
+    width: 320px;
+    white-space: nowrap;
+}
+.hometext{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 2px;
+}
+.hometext:hover{
+    color: #99fcfc;
+}
+.searchbox{
+    height: 40px;
+    width: 100%;
+}
+.search{
+    background-color: #222222;
+    width: 100%;
+    min-width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    padding: 5px;
+    background-image: url(/assets/search.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    color: #99fcfc;
+    padding-left: 40px;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.wlink{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    display: block;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 20px;
+    float: right;
+}
+.barlink a:hover{
+    background-color: #222222;
+    color: #99fcfc;
+}
