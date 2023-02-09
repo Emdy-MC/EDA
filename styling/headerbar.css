@@ -4,10 +4,10 @@ body{
 .body{
     background-color: #191919;
     color: #FFFFFF;
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Roboto,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .headerbar{
-    height: 60px;
+    height: 45px;
     white-space: nowrap;
     display: flex;
     justify-content: space-between;
@@ -18,10 +18,11 @@ body{
     display: none;
 }
 .bar1{
-    padding:10px;
     height: 40px;
     display: inline-flex;
     width: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 .bar2{
     height: 40px;
@@ -47,32 +48,32 @@ body{
 }
 .search{
     background-color: #222222;
-    width: 100%;
+    width: 80%;
     min-width: 100px;
-    height: 40px;
+    height: 35px;
     border: 0;
     border-radius: 10px;
     padding: 5px;
-    background-image: url(../assets/search.png);
+    background-image: url(/assets/search.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 8px;
-    color: #99fcfc;
+    color: #FFFFFF;
     padding-left: 40px;
     padding-right: 15px;
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 20px;
 }
 .wlink{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 15px;
+    font-size: 20px;
     display: block;
     height: 50px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 11px;
     text-align: center;
-    padding-top: 25px;
     float: right;
 }
 .barlink a:hover{

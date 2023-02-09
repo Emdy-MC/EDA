@@ -1,5 +1,4 @@
 .centre{
-    font-family: 'Noto Sans',sans-serif;
     margin: 0;
 }
 .textwall{
@@ -18,7 +17,7 @@
 }
 .para{
     text-align:justify;
-    font-size: 12px;
+    font-size: large;
     margin: 0;
     margin-bottom: 40px;
     color: #e4fcff;
