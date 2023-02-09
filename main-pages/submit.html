@@ -49,14 +49,13 @@
             <div class="form">
                 <form class="fields">
                     <div class="inputs">
+                        <a class="label">Farm Name:</a>
+                        <input type="text" name="name" class="textinput" autocomplete="off" placeholder="The name or title of the build">
+                    </div>
+                    <div class="inputs">
                         <a class="label">Thumbnail:</a>
                         <input type="file" name="thumbnail" accept="image/png, image/jpeg" id="thumbnail" hidden="true">
                         <label for="thumbnail" class="picinput">Upload File</label>
-                        <a id="preview"></a>
-                    </div>
-                    <div class="inputs">
-                        <a class="label">Farm Name:</a>
-                        <input type="text" name="name" class="textinput" autocomplete="off" placeholder="The name or title of the build">
                     </div>
                     <div class="inputs">
                         <a class="label">Designer:</a>
@@ -68,7 +67,35 @@
                     </div>
                     <div class="inputs">
                         <a class="label">Credits:</a>
-                    <input type="text" name="credits" class="textinput" autocomplete="off" placeholder="Additional credits and references">
+                        <input type="text" name="credits" class="textinput" autocomplete="off" placeholder="Additional credits and references">
+                    </div>
+                    <div class="inputs">
+                        <a class="label">Details:</a>
+                        <textarea name="details" class="textbox" autocomplete="off" placeholder="Information like rates, features and drawbacks"></textarea>
+                    </div>
+                    <div class="inputs">
+                        <a class="label">Instructions:</a>
+                        <textarea name="instructions" class="textbox" autocomplete="off" placeholder="Steps on how to use it and/or build it"></textarea>
+                    </div>
+                    <div class="inputs">
+                        <a class="label">Additional Photos:</a>
+                        <input type="file" name="gallery" accept="image/png, image/jpeg" id="gallery" hidden="true" multiple="true">
+                        <label for="gallery" class="picinput">Upload Files</label>
+                    </div>
+                    <div class="inputs">
+                        <a class="label">Litematic/Tutorial:</a>
+                        <input type="file" name="litematic" id="litematic" hidden="true" multiple="true">
+                        <label for="litematic" class="picinput">Upload File</label>
+                        <input type="text" name="tutorial" class="textinput" autocomplete="off" placeholder="video link (tutorial must have proper credit)">
+                    </div>
+                    <div class="inputs">
+                        <a class="label">World Download:</a>
+                        <input type="file" name="wdl" id="wdl" hidden="true">
+                        <label for="wdl" class="picinput">Upload File</label>
+                    </div>
+                    <div class="inputs">
+                        <a class="label">Tags:</a>
+                        <textarea name="tags" class="textbox" autocomplete="off" placeholder="Relevant keywords to help the search function find it better"></textarea>
                     </div>
                     <div class="buttons">
                         <button type="reset" class="resetb">Reset</button>
